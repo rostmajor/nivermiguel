@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convite de Aniversário</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #4299e1, #edf2f7);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+        .container {
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            max-width: 400px;
+            width: 90%;
+            transition: transform 0.3s ease-in-out;
+        }
+        .container:hover {
+            transform: scale(1.05);
+        }
+        .title {
+            font-size: 28px;
+            color: #e53e3e;
+            margin-bottom: 16px;
+        }
+        .image {
+            width: 160px;
+            height: 160px;
+            margin: 0 auto 16px;
+        }
+        .text {
+            font-size: 18px;
+            color: #4a5568;
+            margin-bottom: 12px;
+        }
+        .highlight {
+            font-weight: bold;
+        }
+        .cta {
+            background: #63b3ed;
+            color: #fff;
+            padding: 10px;
+            border-radius: 8px;
+            font-weight: bold;
+            margin-top: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .cta:hover {
+            background-color: #3182ce;
+        }
+        .footer {
+            font-size: 14px;
+            color: #4a5568;
+            margin-top: 20px;
+        }
+        @media (max-width: 600px) {
+            .container {
+                width: 100%;
+                padding: 15px;
+            }
+            .title {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Convite de Aniversário</h1>
+        <img src="https://gamehall.com.br/wp-content/uploads/2024/09/shadow2.png" alt="Imagem do convite" class="image">
+        <p class="text">Olá, você está convidado para o aniversário do <span class="highlight">Miguel!</span></p>
+        <p class="text"><span class="highlight">Data:</span> 22 de março de 2025</p>
+        <p class="text"><span class="highlight">Local:</span> R. Profa. Doná Candinha, 630 - Vila Tenis Clube, Assis - SP, 19806-390</p>
+        <p class="text"><span class="highlight">Horário:</span> [Insira o horário aqui]</p>
+        <p class="text">Será um dia super especial, e esperamos que você venha celebrar conosco!</p>
+        <button class="cta" onclick="window.location.href=https://wa.me/5518996626228?text=Oi,%20estou%20confirmando%20minha%20presença%20no%20aniversário%20do%20Miguel!
+">Confirmar Presença</button>
+        <p class="footer">Para qualquer dúvida, entre em contato pelo WhatsApp.</p>
+    </div>
+</body>
+</html>
